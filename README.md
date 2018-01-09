@@ -1,3 +1,1 @@
-# Todo app
-
-This is a todo-list app to learn React.JS.
+This is a Todo List React project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
