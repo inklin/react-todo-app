@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import TodoList from './components/todoList'
+import TodoApp from './components/todoApp'
 
 const destination = document.getElementById('root');           
 
@@ -11,4 +11,4 @@ var TODOS = [
   {description: 'call best friend'}
 ];
 
-ReactDOM.render(<TodoList todos={TODOS} />, destination);
+ReactDOM.render(<TodoApp todos={TODOS} />, destination);

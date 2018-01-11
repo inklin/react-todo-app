@@ -1,16 +1,16 @@
 import React from 'react';
 import SearchBar from './searchBar';
-import TodoItemTable from './todoItemTable'
+import TodoItemList from './todoItemList'
 
-class TodoList extends React.Component {
+class TodoApp extends React.Component {
   render() {
     return (
       <div className='todoListMain'>
         <SearchBar />
-        <TodoItemTable todos={this.props.todos} />
+        <TodoItemList todos={this.props.todos} />
       </div>
     );
   }
 }
 
-export default TodoList;
+export default TodoApp;
