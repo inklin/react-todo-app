@@ -4,11 +4,9 @@ import TodoItem from './todoItem';
 class TodoItemList extends React.Component {
   constructor(props) {
     super(props);
-
-    this.createToDoItem = this.createTodoItem.bind(this);
   }
 
-  createTodoItem(item) {
+  createTodoItem = (item) => {
     return <TodoItem todo={item} key={item.description} />
   }
 
